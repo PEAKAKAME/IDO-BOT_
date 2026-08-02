@@ -1,12 +1,25 @@
 {
-  "name": "slack-bot",
+  "name": "ido-bot",
   "version": "1.0.0",
   "description": "IDO Slack Bot",
-  "main": "IDO BOT.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node \"IDO BOT.js\""
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
   },
+  "keywords": [
+    "slack",
+    "bolt",
+    "railway",
+    "bot"
+  ],
+  "author": "PEAKAKAME",
+  "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@slack/bolt": "^5.0.0",
     "dotenv": "^17.4.2"
