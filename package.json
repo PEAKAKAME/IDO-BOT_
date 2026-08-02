@@ -2,8 +2,9 @@
   "name": "slack-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "IDO BOT.js",
   "scripts": {
+    "start": "node \"IDO BOT.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
